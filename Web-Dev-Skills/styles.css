@@ -1,0 +1,95 @@
+/* Style sheet for Web Development Skills Page */
+/* the * selects everything */
+
+/* Page Styles*/
+/* body {
+    width:  600px;
+    margin: auto;
+    background-color: white;
+    padding: 10px 100px; }
+*/
+
+html {
+    background-image: url("images/fruit-2305192_1920.jpg")
+}
+
+div {
+    background-color: white;
+    width: 600px;
+    margin: 40px auto;
+    padding: 40px 100px;
+    border-radius: 25px;
+
+}
+
+.html {
+    border: 1px solid #E44D26; 
+    box-shadow: 3px 2px #E44D26;
+}
+
+/* rgb + 3 values is RGB */
+
+.css {
+    border: 1px solid rgb(1, 112, 186);
+    box-shadow: 3px 2px rgb(1, 112, 186);
+}
+
+.js{
+    border: 1px solid #F7DF1E;
+    box-shadow: 3px 2px  #F7DF1E;
+
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 45px; 
+    letter-spacing: 2px;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    font-variant: small-caps;
+}
+
+p, ul {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.tutorial {
+    font-size: 12px;
+}
+
+span {
+    font-family: papyrus;
+}
+
+
+/* # is for hex colors */
+
+
+/* Link Styles */
+a {
+    color: #0000cc;
+    text-decoration: none;
+}
+
+/* Hover can be used for anything, not just links */
+
+a:hover {
+    text-decoration: underline;
+    
+}
+
+/* Image Styles */
+
+img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
